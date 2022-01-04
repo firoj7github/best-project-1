@@ -1,0 +1,128 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+display: flex;
+background-color: peachpuff;
+background-repeat: no-repeat;
+width: 100%;
+
+}
+.header{
+    width: 50%;
+    padding-left: 30px;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.header a{
+    background-image: linear-gradient(orange , tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: papayawhip;
+    text-decoration: none;
+    
+}
+.color-1{
+    color: orange;
+}
+.header p{
+text-align: justify;
+}
+.header-image img{
+    width: 100%;
+    padding-left: 100px;
+}
+.body{
+width: 100%;
+height: 500px;
+}
+.body-1{
+    width: 50%;
+    float: left;
+}
+.body-1 img{
+   padding-left: 35px; 
+}
+.body-2{
+    width: 50%;
+    float: right;
+    padding-top: 130px;
+}
+.body-2 h2{
+
+}
+.body-2 h3{
+
+}
+.body-2 p{
+    text-align: justify;
+}
+.body-2 button{
+    background-color: red;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    color: springgreen;
+}
+.last-part{
+    display: flex;
+    height: 350px;
+}
+.part{
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+background-color: slategrey;
+color: turquoise;
+}
+.last-1{
+    width:400px;
+    height: 250px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 100px;
+    padding: 20px 20px;
+    border-left: 10px solid orange;
+    border-image:linear-gradient(rgb(206, 105, 10) , rgb(197, 21, 94));
+   border-image-slice: 1;
+   border-left: 7px solid;
+   border-radius: 5px;
+}
+.last-1 h3{
+color: orange;
+padding-left: 85px;
+}
+.last-1 h1{
+    padding-left: 39px;
+}
+.last-2{
+    width:400px;
+    height: 250px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 250px;
+    padding: 20px 20px;
+   border-image:linear-gradient(blue , cyan);
+   border-image-slice: 1;
+   border-left: 7px solid;
+   border-radius: 5px;
+}
+.last-2 h1{
+    padding-left: 75px;
+}
+.last-2 h3{
+    color: orange;
+    padding-left: 92px;
+    }
+.last-1 p{
+    text-align: justify;
+}
+.last-2 p{
+    text-align: justify;
+}
