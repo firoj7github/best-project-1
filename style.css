@@ -1,13 +1,20 @@
 
 body{
-    font-family: 'Poppins', sans-serif;
+    
     margin: 0;
+   
+    font-family: 'Poppins', sans-serif;
 }
-.container{
+.flas{
 display: flex;
-background-color: peachpuff;
+background-image: url(image/ground-1.png);
 background-repeat: no-repeat;
-width: 100%;
+
+
+
+
+
+
 
 }
 .header{
@@ -16,7 +23,7 @@ width: 100%;
 }
 .header h1{
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 400;
 
 }
 .header a{
@@ -35,25 +42,36 @@ width: 100%;
 .header p{
 text-align: justify;
 }
-.header-image img{
-    width: 100%;
-    padding-left: 100px;
+.header-image {
+   padding-top: 10px;
+   padding-left: 30px;
+   width: 400px;
+  
+    
 }
 .body{
-width: 100%;
-height: 500px;
+    display: flex;
+   background-image: url(image/ground-5.png);
+   background-repeat: no-repeat;
+   background-position: right;
+    
 }
+
+
+
 .body-1{
     width: 50%;
     float: left;
 }
 .body-1 img{
-   padding-left: 35px; 
+    padding-top: 60px;
+    padding-left: 20px;
 }
+
 .body-2{
     width: 50%;
-    float: right;
-    padding-top: 130px;
+    
+    padding-top: 70px;
 }
 .body-2 h2{
 
@@ -125,4 +143,5 @@ padding-left: 85px;
 }
 .last-2 p{
     text-align: justify;
-}
+} 
+ 
